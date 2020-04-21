@@ -4,11 +4,9 @@ import {Link, Route} from 'react-router-dom'
 
 export const BannerGreeting = () => {
   return (
-    <div className="bannerGreeting">
-      <div className="bannerGreeting">
-        <p className="bannerText">see what i've been working on below</p>
-        <Link to="/contact">or click here to say hi</Link>
-      </div>
+    <div>
+      <p className="bannerText">see what i've been working on below</p>
+      <Link to="/contact">or click here to say hi</Link>
     </div>
   )
 }

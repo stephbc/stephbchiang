@@ -7,7 +7,6 @@
 export {About} from './about'
 export {Banner} from './banner'
 export {BannerGreeting} from './bannerGreeting'
-
 export {Coding} from './coding'
 export {Contact} from './contact'
 export {Footer} from './footer'
@@ -15,3 +14,4 @@ export {Goals} from './goals'
 export {Home} from './home'
 export {Navbar} from './navbar'
 export {Portfolio} from './portfolio'
+export {Sidebar} from './sideBar'

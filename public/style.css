@@ -9,55 +9,73 @@ body {
 a {
   text-decoration: none;
   color: #102542;
+  /* padding: 10px; */
 }
 
 a:hover {
   color: #cdd7d6;
 }
-
+/*
 label {
   display: block;
-}
+} */
+
+/* NAVIGATION */
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-content: centers;
-  margin: 1em;
+  align-content: center;
+  /* margin: 1em; */
+  font-weight: bold;
 }
-
+/*
 .navBar {
   text-align: center;
-}
+} */
 
-form div {
-  /* margin: 1em; */
+/* form div {
+  margin: 1em;
   display: inline-block;
-}
+} */
+
+/* BANNER */
 
 .banner {
   background-color: #f56960;
   display: flex;
-  justify-content: space-between;
-  padding: 12em;
+  /* justify-content: space-evenly; */
+  padding-top: 12em;
+  padding-bottom: 12em;
   align-items: center;
-  margin: 0em;
+  /* margin: 0em; */
   font-size: 20pt;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .bannerIntro {
-  /* margin: 15px; */
+  flex: 1;
+  text-align: center;
+  padding-left: 6em;
+  text-shadow: 2px 2px #cdd7d6;
+}
+
+.bannerIntro:hover {
+  color: #cdd7d6;
+  text-shadow: 2px 2px #102542;
 }
 
 .bannerGreeting {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
+  align-items: center;
+  padding-right: 6em;
   font-size: 12pt;
-  /* align-content: flex-start; */
   text-align: end;
+  margin-right: 6em;
 }
 
 .bannerText {
@@ -74,7 +92,22 @@ form div {
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
+  flex: 2;
+  margin: 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  /* border: 10px;
+  border-style: solid;
+  border-color: #f56960; */
+  text-align: center;
+}
+
+.sidebarLinks {
+  font-weight: bold;
 }
 
 .home {
@@ -95,9 +128,17 @@ form div {
 
 .goals {
   background-color: #ffffff;
-  /* flex-basis: auto; */
-  padding: 2 em;
+  /* padding: 2 em; */
+  margin: 1em;
+  border-radius: 10px;
   justify-content: center;
   /* flex-direction: column; */
   align-items: center;
+}
+
+.about {
+  text-align: center;
+  font-size: 11pt;
+  padding-right: 1em;
+  padding-left: 1em;
 }

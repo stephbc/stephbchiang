@@ -6,7 +6,7 @@ import {logout} from '../store'
 
 export const Navbar = () => (
   <div className="navBar">
-    <h4>here's what i've been learning and creating</h4>
+    {/* <h4>here's what i've been learning and creating</h4> */}
     <nav>
       {/* <Link to="/home">home</Link> */}
       <Link to="/portfolio">portfolio</Link>
@@ -17,7 +17,7 @@ export const Navbar = () => (
 
       {/* <Link to="/about">about me</Link> */}
     </nav>
-    <hr />
+    {/* <hr /> */}
   </div>
 )
 
