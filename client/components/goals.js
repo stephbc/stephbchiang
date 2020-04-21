@@ -1,15 +1,12 @@
 import React from 'react'
+import {Navbar} from './navbar'
+import Routes from '../routes'
 
-export class Goals extends React.Component {
-  constructor() {
-    super()
-  }
-
-  render() {
-    return (
-      <div>
-        <h4>goals component</h4>
-      </div>
-    )
-  }
+export const Goals = () => {
+  return (
+    <div className="goals">
+      <Navbar />
+      <Routes />
+    </div>
+  )
 }

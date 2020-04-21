@@ -3,7 +3,9 @@ import React from 'react'
 export const Footer = () => {
   return (
     <div className="footer">
-      <h4>footer</h4>
+      {/* <h4>By Stephanie Chiang</h4> */}
+      <p>© 2020 Stephanie Chiang</p>
+      <p>social icons here</p>
     </div>
   )
 }

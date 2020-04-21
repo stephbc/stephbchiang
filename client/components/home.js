@@ -8,8 +8,8 @@ export const Home = () => {
     <div className="home">
       {/* <p>this is the main home body</p> */}
       <div className="sidebar">
-        <About />
         <Contact />
+        <About />
       </div>
       <div className="mainBody">
         <Goals />

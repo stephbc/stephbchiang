@@ -4,10 +4,12 @@
  * having to figure out which file they belong to!
  */
 
-export {Banner} from './banner'
-export {Navbar} from './navbar'
-export {Home} from './home'
-export {Goals} from './goals'
 export {About} from './about'
+export {Banner} from './banner'
+export {Coding} from './coding'
 export {Contact} from './contact'
 export {Footer} from './footer'
+export {Goals} from './goals'
+export {Home} from './home'
+export {Navbar} from './navbar'
+export {Portfolio} from './portfolio'

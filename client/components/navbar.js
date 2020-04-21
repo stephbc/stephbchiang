@@ -5,12 +5,17 @@ import {Link} from 'react-router-dom'
 import {logout} from '../store'
 
 export const Navbar = () => (
-  <div>
+  <div className="navBar">
+    <h4>here's what i've been learning and creating</h4>
     <nav>
-      <Link to="/home">home</Link>
-      <Link to="/goals">my current goals</Link>
-      <Link to="/about">about me</Link>
-      <Link to="/contact">contact me</Link>
+      {/* <Link to="/home">home</Link> */}
+      <Link to="/portfolio">portfolio</Link>
+      <Link to="/coding">learning to code</Link>
+      <Link to="/ukulele">ukulele</Link>
+      <Link to="/biking">like riding a bike</Link>
+      <Link to="/reading">reading list</Link>
+
+      {/* <Link to="/about">about me</Link> */}
     </nav>
     <hr />
   </div>
