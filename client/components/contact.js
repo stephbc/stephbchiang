@@ -10,7 +10,7 @@ export const Contact = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        linkedin
+        add me on linkedin
       </a>
       <br />
       <a
@@ -18,7 +18,7 @@ export const Contact = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        github
+        check out my github
       </a>
     </div>
   )

@@ -6,6 +6,8 @@
 
 export {About} from './about'
 export {Banner} from './banner'
+export {BannerGreeting} from './bannerGreeting'
+
 export {Coding} from './coding'
 export {Contact} from './contact'
 export {Footer} from './footer'
