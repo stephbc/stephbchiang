@@ -1,16 +1,20 @@
 import React from 'react'
-import {Goals} from './goals'
-import {Sidebar} from './sideBar'
+import {Goals, Sidebar, Monthly, Qresume} from './index'
 
 export const Home = () => {
   return (
     <div className="home">
-      {/* <p>this is the main home body</p> */}
       <div className="sidebar">
         <Sidebar />
       </div>
       <div className="mainBody">
-        <Goals />
+        <div className="goals">
+          <Goals />
+        </div>
+        <div className="current">
+          <Monthly />
+          <Qresume />
+        </div>
       </div>
     </div>
   )

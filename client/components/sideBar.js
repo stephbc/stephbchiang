@@ -1,7 +1,6 @@
 import React from 'react'
-import {About} from './about'
-import {Contact} from './contact'
-import {Link, Route} from 'react-router-dom'
+import {Link, Route, Switch} from 'react-router-dom'
+import {About, Contact} from './index'
 
 export const Sidebar = () => {
   return (
@@ -14,10 +13,13 @@ export const Sidebar = () => {
           contact
         </Link>
       </nav>
-      <hr />
+      <br />
       <div>
-        <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
+        <Switch>
+          <Route path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route component={Contact} />
+        </Switch>
       </div>
     </div>
   )

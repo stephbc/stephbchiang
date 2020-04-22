@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link, Route} from 'react-router-dom'
-// import {Contact, BannerGreeting} from './contact'
+import {Link} from 'react-router-dom'
 
 export const BannerGreeting = () => {
   return (
     <div>
-      <p className="bannerText">see what i've been working on below</p>
+      <p className="bannerText">see what I've been working on below</p>
       <Link to="/contact">or click here to say hi</Link>
     </div>
   )

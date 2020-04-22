@@ -1,16 +1,21 @@
 import React from 'react'
-import {Navbar} from './navbar'
-// import Routes from '../routes'
 import {withRouter, Route, Switch} from 'react-router-dom'
+import {Coding, Navbar, Portfolio, Ukulele, Bicycle} from './index'
 
 export const Goals = () => {
   return (
-    <div className="goals">
+    <div>
+      {/* <p>here's what i've been learning and creating</p> */}
       <Navbar />
-      {/* <Routes /> */}
-      {/* <Route path="/coding" component={Coding} />
-        <Route path="/portfolio" component={Portfolio} /> */}
       <hr />
+
+      <Switch>
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/coding" component={Coding} />
+        <Route path="/ukulele" component={Ukulele} />
+        <Route path="/bicycle" component={Bicycle} />
+        <Route component={Portfolio} />
+      </Switch>
     </div>
   )
 }
