@@ -6,11 +6,11 @@ export const Sidebar = () => {
   return (
     <div>
       <nav>
-        <Link to="/about" className="sidebarLinks">
-          about me
-        </Link>
         <Link to="/contact" className="sidebarLinks">
           contact
+        </Link>
+        <Link to="/about" className="sidebarLinks">
+          about me
         </Link>
       </nav>
       <br />

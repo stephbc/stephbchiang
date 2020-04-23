@@ -84,6 +84,7 @@ nav {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
+  box-shadow: 2px 2px #415a77;
 }
 
 .sidebarLinks {
@@ -123,10 +124,31 @@ nav {
   justify-content: center;
   align-items: center;
   flex: 4 4;
+  box-shadow: 2px 2px #415a77;
 }
 
 .portfolio {
+  display: flex;
+  justify-content: space-evenly;
   margin: 1em;
+}
+
+.totem {
+  flex: 1;
+  background-color: #cdd7d6;
+  padding: 1em;
+  margin-right: 0.5em;
+  border-radius: 10px;
+  box-shadow: 2px 2px #415a77;
+}
+
+.qparty {
+  flex: 1;
+  background-color: #cdd7d6;
+  padding: 1em;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  box-shadow: 2px 2px #415a77;
 }
 
 .coding {
@@ -145,6 +167,7 @@ nav {
   margin: 1em;
   padding: 1em;
   border-radius: 10px;
+  box-shadow: 2px 2px #415a77;
 }
 
 .qresume {
@@ -153,6 +176,7 @@ nav {
   margin: 1em;
   padding: 1em;
   border-radius: 10px;
+  box-shadow: 2px 2px #415a77;
 }
 
 .footer {
