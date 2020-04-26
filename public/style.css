@@ -36,7 +36,7 @@ a:hover {
   text-shadow: 2px 2px #cdd7d6;
 }
 
-.bannerIntro:hover {
+.bannerIntroLink:hover {
   color: #cdd7d6;
   text-shadow: 2px 2px #102542;
 }
@@ -137,6 +137,7 @@ nav {
 /* HOME/MAIN */
 
 .home {
+  background-color: #ffffff;
   display: flex;
   /* justify-content: space-evenly; */
 }

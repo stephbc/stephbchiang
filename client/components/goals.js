@@ -10,10 +10,10 @@ export const Goals = () => {
       <hr />
 
       <Switch>
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/coding" component={Coding} />
-        <Route path="/ukulele" component={Ukulele} />
-        <Route path="/bicycle" component={Bicycle} />
+        <Route path="/home/portfolio" component={Portfolio} />
+        <Route path="/home/coding" component={Coding} />
+        <Route path="/home/ukulele" component={Ukulele} />
+        <Route path="/home/bicycle" component={Bicycle} />
         <Route component={Portfolio} />
       </Switch>
     </div>

@@ -6,18 +6,18 @@ export const Sidebar = () => {
   return (
     <div className="sidebar">
       <nav>
-        <Link to="/contact" className="sidebarLinks">
+        <Link to="/home/contact" className="sidebarLinks">
           contact
         </Link>
-        <Link to="/about" className="sidebarLinks">
+        <Link to="/home/about" className="sidebarLinks">
           about me
         </Link>
       </nav>
       <br />
       <div>
         <Switch>
-          <Route path="/contact" component={Contact} />
-          <Route path="/about" component={About} />
+          <Route path="/home/contact" component={Contact} />
+          <Route path="/home/about" component={About} />
           <Route component={Contact} />
         </Switch>
       </div>
