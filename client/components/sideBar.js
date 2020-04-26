@@ -4,7 +4,7 @@ import {About, Contact} from './index'
 
 export const Sidebar = () => {
   return (
-    <div>
+    <div className="sidebar">
       <nav>
         <Link to="/contact" className="sidebarLinks">
           contact

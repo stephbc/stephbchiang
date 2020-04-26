@@ -77,14 +77,18 @@ nav {
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex: 2 2;
+  flex: 1 1;
   margin: 1em;
   background-color: #ffffff;
   border-radius: 10px;
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
-  box-shadow: 2px 2px #415a77;
+  box-shadow: 3px 3px #817f75;
+}
+
+.sidePanel {
+  flex: 2 2;
 }
 
 .sidebarLinks {
@@ -98,10 +102,36 @@ nav {
 }
 
 .about {
+  flex: 1 1;
   text-align: center;
   font-size: 11pt;
   padding-right: 1em;
   padding-left: 1em;
+}
+
+.current {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.monthly {
+  background-color: #ffffff;
+  flex: 1 1;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px #817f75;
+}
+
+.qresume {
+  background-color: #ffffff;
+  flex: 1 1;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px #817f75;
 }
 
 /* HOME/MAIN */
@@ -124,7 +154,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex: 4 4;
-  box-shadow: 2px 2px #415a77;
+  box-shadow: 3px 3px #817f75;
 }
 
 .portfolio {
@@ -139,7 +169,8 @@ nav {
   padding: 1em;
   margin-right: 0.5em;
   border-radius: 10px;
-  box-shadow: 2px 2px #415a77;
+  box-shadow: 3px 3px #817f75;
+  text-align: center;
 }
 
 .qparty {
@@ -148,35 +179,13 @@ nav {
   padding: 1em;
   margin-left: 0.5em;
   border-radius: 10px;
-  box-shadow: 2px 2px #415a77;
+  box-shadow: 3px 3px #817f75;
+  text-align: center;
 }
 
 .coding {
   margin: 1em;
-}
-
-.current {
-  flex: 2 2;
-  display: flex;
-  justify-content: space-between;
-}
-
-.monthly {
-  background-color: #b3a394;
-  flex: 1;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 2px 2px #415a77;
-}
-
-.qresume {
-  background-color: #b3a394;
-  flex: 1;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 2px 2px #415a77;
+  text-align: center;
 }
 
 .footer {
