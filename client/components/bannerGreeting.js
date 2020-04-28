@@ -5,9 +5,9 @@ export const BannerGreeting = () => {
   return (
     <div>
       {/* <p className="bannerText"> </p> */}
-      <Link to="/home">get to know me here</Link>
+      <Link to="/home">check out what i'm working on?</Link>
       <br />
-      <Link to="/contact">or just say hi!</Link>
+      <Link to="/contact">or come say hi!</Link>
     </div>
   )
 }

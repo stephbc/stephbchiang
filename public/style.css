@@ -137,7 +137,7 @@ nav {
 /* HOME/MAIN */
 
 .home {
-  background-color: #ffffff;
+  background-color: #cdd7d6;
   display: flex;
   /* justify-content: space-evenly; */
 }
@@ -160,15 +160,15 @@ nav {
 
 .portfolio {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: stretch;
   margin: 1em;
 }
 
 .totem {
   flex: 1;
-  background-color: #cdd7d6;
+  background-color: #dac2c1;
   padding: 1em;
-  margin-right: 0.5em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
   text-align: center;
@@ -176,9 +176,8 @@ nav {
 
 .qparty {
   flex: 1;
-  background-color: #cdd7d6;
+  background-color: #dac2c1;
   padding: 1em;
-  margin-left: 0.5em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
   text-align: center;
@@ -187,6 +186,20 @@ nav {
 .coding {
   margin: 1em;
   text-align: center;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pastTech {
+  flex: 1;
+}
+
+.pastTech {
+  flex: 1;
 }
 
 .footer {

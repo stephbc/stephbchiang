@@ -18,7 +18,7 @@ export const Sidebar = () => {
         <Switch>
           <Route path="/home/contact" component={Contact} />
           <Route path="/home/about" component={About} />
-          <Route component={Contact} />
+          <Route component={About} />
         </Switch>
       </div>
     </div>
