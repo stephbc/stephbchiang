@@ -15,7 +15,6 @@ export class Banner extends React.Component {
         <div className="bannerGreeting">
           <Switch>
             <Route exact path="/contact" component={Contact} />
-            {/* <Route exact path="/" component={BannerGreeting} /> */}
             <Route component={BannerGreeting} />
           </Switch>
         </div>

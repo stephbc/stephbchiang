@@ -1,20 +1,32 @@
 import React from 'react'
+import {Contact} from './index'
 
 export const About = () => {
   return (
     <div className="about">
-      <p>Hello! My name is Stephanie Chiang.</p>
       <p>
-        I'm software developer keeping track of all my goals and projects here.
+        <b>Hello!</b>
       </p>
-      <p> Take a look!</p>
-
       <p>
+        My name is <br />
+        <b>Stephanie Chiang</b>
+        <br />and I'm software developer.
+      </p>
+      <p>
+        I'm keeping track of all my goals and projects here.<br />Please take a
+        look!
+      </p>
+      <p>Here's how you can reach me:</p>
+
+      <b>
+        <Contact />
+      </b>
+      {/* <p>
         My key values are <b>empathy, balance, growth, curiosity</b> and{' '}
         <b>adventurousness</b>.
       </p>
 
-      {/* <p>My strengths:</p>
+      <p>My strengths:</p>
       <p>
         <b>empathizer</b>: <br />stepping into others' shoes easily
       </p>

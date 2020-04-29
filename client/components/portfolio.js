@@ -1,11 +1,10 @@
 import React from 'react'
-import {Route} from 'react-router-dom'
 // import Totem from "../../public/assets/totem.png"
 
 export const Portfolio = () => {
   return (
     <div className="portfolio">
-      <div className="totem">
+      <div className="project">
         <h4>TOTEM</h4>
         <p>An app for festivals, raves and all your nights out!</p>
         <p>
@@ -22,7 +21,7 @@ export const Portfolio = () => {
       </div>
 
       <br />
-      <div className="qparty">
+      <div className="project">
         <h4>SUPER QUARANTINE PARTY</h4>
         <p>A Mario-Party style multiplayer game!</p>
         <a href="https://super-quarantine-party.herokuapp.com/">

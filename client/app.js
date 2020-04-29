@@ -5,12 +5,10 @@ import {Banner, Home, Footer} from './components'
 const App = () => {
   return (
     <div>
-      <div>
-        <Switch>
-          <Route path="/home" component={Home} />
-          <Route component={Banner} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/home" component={Home} />
+        <Route component={Banner} />
+      </Switch>
       <Footer />
     </div>
   )

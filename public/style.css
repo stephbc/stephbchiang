@@ -4,6 +4,7 @@ body {
   /* font-variant: small-caps; */
   background-color: #cdd7d6;
   padding: 0em;
+  /* font-stretch: expanded; */
 }
 
 a {
@@ -19,14 +20,13 @@ a:hover {
 /* BANNER */
 
 .banner {
-  background-color: #f56960;
+  background-color: #bd9391;
   display: flex;
   padding-top: 12em;
   padding-bottom: 12em;
   align-items: center;
   font-size: 20pt;
   font-weight: bold;
-  /* border-radius: 10px; */
 }
 
 .bannerIntro {
@@ -51,15 +51,16 @@ a:hover {
   text-align: end;
 }
 
-.bannerText {
+/* .bannerText {
   margin-bottom: 3px;
   margin-top: 3px;
-}
+} */
 
 /* NAVIGATION */
 
 nav {
   display: flex;
+  /* background-color: #dac2c1; */
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
@@ -72,28 +73,35 @@ nav {
   margin: 1em;
 }
 
+.navLink {
+  background-color: #dac2c1;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px #817f75;
+}
+
 /* SIDEBAR */
 
-.sidebar {
+/* .sidebar {
   display: flex;
   flex-direction: column;
   flex: 1 1;
   margin: 1em;
-  background-color: #ffffff;
+  background-color: #dac2c1;
   border-radius: 10px;
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
   box-shadow: 3px 3px #817f75;
-}
+} */
 
 .sidePanel {
   flex: 2 2;
 }
-
+/*
 .sidebarLinks {
   font-weight: bold;
-}
+} */
 
 .contact {
   justify-content: flex-start;
@@ -102,11 +110,16 @@ nav {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
   flex: 1 1;
+  margin: 1em;
+  background-color: #dac2c1;
+  border-radius: 10px;
+  padding: 1em;
   text-align: center;
+  box-shadow: 3px 3px #817f75;
   font-size: 11pt;
-  padding-right: 1em;
-  padding-left: 1em;
 }
 
 .current {
@@ -165,16 +178,7 @@ nav {
   margin: 1em;
 }
 
-.totem {
-  flex: 1;
-  background-color: #dac2c1;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 3px 3px #817f75;
-  text-align: center;
-}
-
-.qparty {
+.project {
   flex: 1;
   background-color: #dac2c1;
   padding: 1em;
@@ -184,8 +188,11 @@ nav {
 }
 
 .coding {
-  margin: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 1em;
 }
 
 .techStack {
@@ -196,10 +203,20 @@ nav {
 
 .pastTech {
   flex: 1;
+  background-color: #dac2c1;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px #817f75;
+  text-align: center;
 }
 
-.pastTech {
+.futureTech {
   flex: 1;
+  background-color: #dac2c1;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px #817f75;
+  text-align: center;
 }
 
 .footer {
