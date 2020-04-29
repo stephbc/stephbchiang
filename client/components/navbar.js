@@ -5,13 +5,13 @@ export const Navbar = () => (
   <div className="navBar">
     <nav>
       <div className="navLink">
-        <Link to="/home/portfolio">PROJECTS</Link>
+        <Link to="/home/portfolio">Projects</Link>
       </div>
       <div className="navLink">
-        <Link to="/home/coding">LEARNING TO CODE</Link>
+        <Link to="/home/qresume">Quarantine Resume</Link>
       </div>
       <div className="navLink">
-        <Link to="/home/resume">RESUME</Link>
+        <Link to="/home/resume">Actual Resume</Link>
       </div>
     </nav>
   </div>

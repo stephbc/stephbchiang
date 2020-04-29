@@ -5,6 +5,7 @@ body {
   background-color: #cdd7d6;
   padding: 0em;
   /* font-stretch: expanded; */
+  font-size: 11pt;
 }
 
 a {
@@ -14,13 +15,13 @@ a {
 }
 
 a:hover {
-  color: #cdd7d6;
+  color: #f8f3f3;
 }
 
 /* BANNER */
 
 .banner {
-  background-color: #bd9391;
+  background-color: #f87060;
   display: flex;
   padding-top: 12em;
   padding-bottom: 12em;
@@ -74,7 +75,7 @@ nav {
 }
 
 .navLink {
-  background-color: #dac2c1;
+  background-color: #dac3c2;
   padding: 1em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
@@ -98,8 +99,8 @@ nav {
 .sidePanel {
   flex: 2 2;
 }
-/*
-.sidebarLinks {
+
+/* .sidebarLinks {
   font-weight: bold;
 } */
 
@@ -114,7 +115,7 @@ nav {
   flex-direction: column;
   flex: 1 1;
   margin: 1em;
-  background-color: #dac2c1;
+  background-color: #dac3c2;
   border-radius: 10px;
   padding: 1em;
   text-align: center;
@@ -130,7 +131,7 @@ nav {
 }
 
 .monthly {
-  background-color: #ffffff;
+  background-color: #f8f3f3;
   flex: 1 1;
   margin: 1em;
   padding: 1em;
@@ -139,12 +140,18 @@ nav {
 }
 
 .qresume {
-  background-color: #ffffff;
+  background-color: #f8f3f3;
   flex: 1 1;
   margin: 1em;
   padding: 1em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
+  text-align: center;
+}
+
+resume {
+  /* display: block; */
+  /* flex: 1 1; */
 }
 
 /* HOME/MAIN */
@@ -162,7 +169,7 @@ nav {
 }
 
 .goals {
-  background-color: #ffffff;
+  background-color: #f8f3f3;
   margin: 1em;
   border-radius: 10px;
   justify-content: center;
@@ -180,19 +187,27 @@ nav {
 
 .project {
   flex: 1;
-  background-color: #dac2c1;
+  background-color: #dac3c2;
   padding: 1em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
   text-align: center;
 }
 
+/* CODING */
+
 .coding {
-  text-align: center;
+  /* align-items: center; */
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   margin: 1em;
+  background-color: #f8f3f3;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px #817f75;
+  font-size: 11pt;
+  flex: 1 1;
+  padding: 1em;
 }
 
 .techStack {
@@ -201,22 +216,14 @@ nav {
   justify-content: space-around;
 }
 
-.pastTech {
+.tech {
   flex: 1;
-  background-color: #dac2c1;
+  background-color: #dac3c2;
   padding: 1em;
   border-radius: 10px;
   box-shadow: 3px 3px #817f75;
   text-align: center;
-}
-
-.futureTech {
-  flex: 1;
-  background-color: #dac2c1;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 3px 3px #817f75;
-  text-align: center;
+  margin: 1em;
 }
 
 .footer {
