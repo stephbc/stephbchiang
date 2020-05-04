@@ -9,7 +9,6 @@ export const Qresume = () => {
         things and gain some new skills! Here's what I've been picking up:
       </p>
       <br />
-      <p>*</p>
       <p>
         <a href="https://medium.com/journey-to-becoming-an-algoat/sort-scores-part-1-7e80e1878721">
           <b>Writing my first Medium article</b>
