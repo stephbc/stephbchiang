@@ -88,6 +88,42 @@ export const Portfolio = () => {
           allowFullScreen
         />
       </div>
+
+      <br />
+      <div className="project">
+        <div className="projectTile">
+          <div className="projectDesc">
+            <p>
+              <a
+                href="https://github.com/stephbc/BottledUp2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>BottledUp</b>
+              </a>{' '}
+              is a sample eCommerce site built using Node.js, Express, React,
+              Redux, Sequelize and PostGreSQL. As one of four developers on this
+              project, I worked on the Express routes, React forms and admin
+              features.
+            </p>
+            <a
+              href="https://github.com/stephbc/BottledUp2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>SEE IT ON GITHUB</b>
+            </a>
+          </div>
+        </div>
+        <br />
+        <a
+          href="https://github.com/stephbc/BottledUp2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/bottledup2.png" width="560px" />
+        </a>
+      </div>
     </div>
   )
 }
