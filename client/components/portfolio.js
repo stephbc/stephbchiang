@@ -111,7 +111,16 @@ export const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <b>SEE IT ON GITHUB</b>
+              <b>SEE VERSION 2.0 ON GITHUB</b>
+            </a>
+            <br />
+            <br />
+            <a
+              href="https://graceshopperbottledup.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>VERSION 1.0 DEPLOYED HERE</b>
             </a>
           </div>
         </div>
@@ -123,6 +132,7 @@ export const Portfolio = () => {
         >
           <img src="/assets/bottledup2.png" width="560px" />
         </a>
+        <br />
       </div>
     </div>
   )
