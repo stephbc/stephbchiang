@@ -4,9 +4,12 @@ import {Link} from 'react-router-dom'
 export const BannerGreeting = () => {
   return (
     <div>
-      <Link to="/home">check out what i'm working on</Link>
-      <br />
-      <Link to="/contact">or come say hi</Link>
+      <p>
+        <Link to="/home">see what i'm working on</Link>
+      </p>
+      <p>
+        <Link to="/contact">or contact me here</Link>
+      </p>
     </div>
   )
 }
