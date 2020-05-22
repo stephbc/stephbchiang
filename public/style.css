@@ -64,7 +64,7 @@ img {
 
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-content: center;
   font-weight: bold;
@@ -78,32 +78,13 @@ nav {
 .navLink {
   background-color: #ffffff;
   padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   border-radius: 10px;
-  /* box-shadow: 3px 3px #ada0a6; */
 }
-/*
-.navLink:hover {
-  background-color: #f87060;
-  color: #ffffff;
-} */
 
-/* SIDEBAR */
-
-/* .sidebar {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1;
-  margin: 1em;
-  background-color: #dac2c1;
-  border-radius: 10px;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
-  box-shadow: 3px 3px #ada0a6;
-} */
-
-/* .sidebarLinks {
-  font-weight: bold;
+/* .navLink:hover {
+  background-color: #B3A394;
 } */
 
 .sidePanel {
@@ -114,7 +95,6 @@ nav {
   justify-content: flex-start;
   margin-bottom: 3px;
   margin-top: 3px;
-  /* color: #b3a394; */
 }
 
 .about {
@@ -127,21 +107,7 @@ nav {
   border-radius: 10px;
   padding: 1em;
   text-align: center;
-  /* box-shadow: 3px 3px #ada0a6; */
   font-size: 11pt;
-}
-
-.coding {
-  display: flex;
-  flex-direction: column;
-  margin: 1em;
-  background-color: #ffffff;
-  border-radius: 10px;
-  /* text-align: center; */
-  /* box-shadow: 3px 3px #ada0a6; */
-  font-size: 11pt;
-  flex: 1 1;
-  padding: 1em;
 }
 
 /* HOME/MAIN */
@@ -164,7 +130,17 @@ nav {
   justify-content: center;
   align-items: center;
   flex: 4 4;
-  /* box-shadow: 3px 3px #ada0a6; */
+}
+
+.coding {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 11pt;
+  flex: 1 1;
+  padding: 1em;
 }
 
 .portfolio {
@@ -182,11 +158,9 @@ nav {
   background-color: #ffffff;
   padding: 1em;
   border-radius: 10px;
-  /* box-shadow: 3px 3px #ada0a6; */
 }
 
 .projectTile {
-  /* flex: 1; */
   display: flex;
   align-items: stretch;
 }
@@ -196,19 +170,11 @@ nav {
   text-align: center;
 }
 
-/* .qresume {
-  background-color: #ffffff;
-  flex: 1 1;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 10px;
-  box-shadow: 3px 3px #ada0a6;
-} */
-
 .resume {
   background-color: #ffffff;
   margin: 1em;
   padding: 1em;
+  border-radius: 10px;
 }
 
 .footer {

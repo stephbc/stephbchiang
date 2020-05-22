@@ -5,6 +5,7 @@ export const Navbar = () => (
   <div className="navBar">
     <nav>
       <div className="navLink">
+        {/* <button type="button"></button> */}
         <Link to="/home/portfolio">PORTFOLIO</Link>
       </div>
       <div className="navLink">

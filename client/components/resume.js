@@ -1,5 +1,4 @@
 import React from 'react'
-// import { PDFViewer, Page, Text, View, Document } from '@react-pdf/renderer';
 
 export const Resume = () => {
   return (
