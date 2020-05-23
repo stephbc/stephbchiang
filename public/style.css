@@ -162,7 +162,8 @@ nav {
 
 .projectTile {
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  flex-direction: row;
 }
 
 .projectDesc {

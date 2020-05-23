@@ -15,3 +15,7 @@ export {Home} from './home'
 export {Navbar} from './navbar'
 export {Portfolio} from './portfolio'
 export {Resume} from './resume'
+
+export {Totem} from './Totem'
+export {Qparty} from './Qparty'
+export {Bottledup} from './Bottledup'
