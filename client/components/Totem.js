@@ -4,14 +4,6 @@ export const Totem = () => {
   return (
     <div className="project">
       <div className="projectTile">
-        <a
-          href="https://github.com/stephbc/TOTEM"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/assets/totem.png" width="150px" />
-        </a>
-
         <div className="projectDesc">
           <p>
             <b>TOTEM</b> is an app I created using React Native and Expo.

@@ -12,7 +12,6 @@ export const About = () => {
         <b>Stephanie Chiang</b>
         <br />and I'm software developer.
       </p>
-      {/* <p>You can reach out to me here:</p> */}
       <b>
         <Contact />
       </b>

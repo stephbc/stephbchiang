@@ -4,14 +4,6 @@ export const Qparty = () => {
   return (
     <div className="project">
       <div className="projectTile">
-        <a
-          href="https://super-quarantine-party.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/assets/Qparty.png" width="300px" />
-        </a>
-
         <div className="projectDesc">
           <p>
             <b>SUPER QUARANTINE PARTY</b> is a Mario-Party style multiplayer
