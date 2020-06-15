@@ -18,6 +18,15 @@ img {
   border-radius: 10px;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* BANNER */
 
 .banner {
@@ -58,7 +67,18 @@ img {
   padding-right: 6em;
   font-size: 12pt;
   text-align: end;
+  animation: fadeIn ease 8s;
 }
+/*
+#bannerG1 {
+  animation: fadeIn ease 3s;
+}
+
+#bannerG2 {
+  opacity: 0;
+  animation: fadeIn ease 3s;
+  animation-delay: 1.5s;
+} */
 
 /* NAVIGATION */
 
@@ -88,7 +108,8 @@ nav {
 }
 
 .contact {
-  justify-content: flex-start;
+  animation: fadeIn ease 3s;
+  justify-content: center;
   margin-bottom: 3px;
   margin-top: 3px;
 }
@@ -137,6 +158,7 @@ nav {
   font-size: 11pt;
   flex: 1 1;
   padding: 1em;
+  animation: fadeIn ease 3s;
 }
 
 .portfolio {
@@ -160,6 +182,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: row;
+  animation: fadeIn ease 3s;
 }
 
 .projectDesc {
@@ -172,6 +195,7 @@ nav {
   margin: 1em;
   padding: 1em;
   border-radius: 10px;
+  animation: fadeIn ease 3s;
 }
 
 .footer {
