@@ -6,11 +6,11 @@ export const Portfolio = () => {
   return (
     <div className="portfolio">
       <nav className="projectTile">
-        <Link to="/home/portfolio/totem">
-          <img src="/assets/totem.png" height="100px" />
-        </Link>
         <Link to="/home/portfolio/qparty">
           <img src="/assets/Qparty.png" height="100px" />
+        </Link>
+        <Link to="/home/portfolio/totem">
+          <img src="/assets/totem.png" height="100px" />
         </Link>
         <Link to="/home/portfolio/bottledup">
           <img src="/assets/bottledup2.png" height="100px" />
@@ -21,6 +21,7 @@ export const Portfolio = () => {
         <Route path="/home/portfolio/totem" component={Totem} />
         <Route path="/home/portfolio/qparty" component={Qparty} />
         <Route path="/home/portfolio/bottledup" component={Bottledup} />
+        {/* <Route component={Totem} /> */}
       </Switch>
     </div>
   )

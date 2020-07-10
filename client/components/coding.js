@@ -4,7 +4,7 @@ export const Coding = () => {
   return (
     <div>
       <div className="coding">
-        <h4>CODING JOURNEY</h4>
+        <h4>MY CODING JOURNEY</h4>
         <p>
           In early 2019, I was looking for a new challenge to spark creativity
           and growth. I had been curious about learning to code and was almost
