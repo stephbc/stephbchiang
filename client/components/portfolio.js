@@ -5,6 +5,8 @@ import {Totem, Qparty, Bottledup} from './index'
 export const Portfolio = () => {
   return (
     <div className="portfolio">
+      <h3>PREVIOUS WORK & COMPLETED PROJECTS</h3>
+      <br />
       <nav className="projectTile">
         <Link to="/home/portfolio/qparty">
           <img src="/assets/Qparty.png" height="100px" />

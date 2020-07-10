@@ -14,9 +14,9 @@ export const Navbar = () => (
       <div id="navLink3">
         <Link to="/home/resume">RESUME</Link>
       </div>
-      <div id="navLink4">
+      {/* <div id="navLink4">
         <Link to="/home/fun">JUST FOR FUN</Link>
-      </div>
+      </div> */}
     </nav>
   </div>
 )

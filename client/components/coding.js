@@ -4,27 +4,28 @@ export const Coding = () => {
   return (
     <div>
       <div className="coding">
-        <h4>MY CODING JOURNEY</h4>
+        <h3>MY CODING JOURNEY</h3>
         <p>
-          In early 2019, I was looking for a new challenge to spark creativity
-          and growth. I had been curious about learning to code and was almost
-          surprised at how much I enjoyed the struggle and the process!
+          In early 2019, I started looking for new challenges to spark
+          creativity and growth, not just in my career but for my personal
+          development. I had been curious about learning to code and was
+          surprised to find how much I enjoyed the struggles and the process!
         </p>
         <p>
-          Later that year, I applied and was accepted to the
+          Later that year, I was accepted to the
           <a
             href="https://www.gracehopper.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <b> Grace Hopper Program at FullStack Academy</b>
-          </a>, a cohort for the training of female and non-binary students to
-          become software engineers. I completed coursework in April of 2020.
+          </a>, a bootcamp for the training of female and non-binary software
+          engineers. I completed the program in April of 2020.
         </p>
         <p>
-          <b>THE TECH:</b> Javascript, HTML, CSS, React, Redux, Node.js,
-          Express, Sequelize, SQL, PostgreSQL, React Native, Expo, Phaser 3,
-          Socket.IO
+          <b>THE TECH STACK:</b> <br />Javascript, HTML, CSS, React, Redux,
+          Node.js, Express, Sequelize, SQL, PostgreSQL, React Native, Expo,
+          Phaser 3, Socket.IO
         </p>
       </div>
       <div className="coding">
@@ -38,9 +39,9 @@ export const Coding = () => {
           </a>
         </p>
         <p>
-          My article on solving a hash table algorithm, written for "Journey to
-          Becoming an Algoat", a publication run by former Grace Hopper students
-          on Medium.
+          In this article, my partner and I solve an algorithm using a hash
+          table. <br />Written for "Journey to Becoming an Algoat", a
+          publication run by former Grace Hopper students on Medium.
         </p>
       </div>
     </div>

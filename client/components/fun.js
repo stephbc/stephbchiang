@@ -1,5 +1,5 @@
 import React from 'react'
 
 export const Fun = () => {
-  return <p>fun</p>
+  return <div className="fun">My dog Lucy Spotify</div>
 }
