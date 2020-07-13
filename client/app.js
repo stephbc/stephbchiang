@@ -4,7 +4,7 @@ import {Banner, Home, Footer} from './components'
 
 const App = () => {
   return (
-    <div>
+    <div id="app">
       <Switch>
         <Route path="/home" component={Home} />
         <Route component={Banner} />

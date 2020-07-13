@@ -1,7 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
   font-family: Helvetica;
   color: #102542;
-  background-color: #cdd7d6;
+  /* background-color: #cdd7d6; */
   font-size: 11pt;
 }
 
@@ -27,17 +34,25 @@ img {
   }
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
 /* BANNER */
 
 .banner {
   background-color: #f87060;
   display: flex;
   flex-direction: column;
-  padding-top: 6em;
-  padding-bottom: 12em;
-  align-items: center;
+  /* padding-top: 6em;
+  padding-bottom: 12em; */
+  height: 100vh;
+  /* align-items: center; */
+  justify-content: center;
   font-size: 24pt;
   font-weight: bold;
+  /* flex: 8 8 */
 }
 
 .banner a {
@@ -50,6 +65,10 @@ img {
 
 .bannerIntro {
   flex: 1;
+  flex-direction: column;
+  padding-top: 6em;
+  /* height: 50%; */
+  justify-content: flex-end;
   text-align: center;
   text-shadow: 2px 2px #cdd7d6;
 }
@@ -60,11 +79,11 @@ img {
 }
 
 .bannerGreeting {
+  /* height: 50%; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* padding-bottom: 3em; */
+  /* align-items: center; */
   font-size: 11pt;
   text-align: center;
 }
@@ -93,53 +112,58 @@ nav {
 .navBar {
   text-align: center;
   margin: 1em;
+  font-size: 20pt;
+  /* height: 100%; */
 }
 
 #navLink1 {
   animation: fadeIn ease 3s;
   animation-fill-mode: forwards;
-  background-color: #ffffff;
+
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-radius: 10px;
 }
 #navLink2 {
   opacity: 0;
   animation: fadeIn ease 3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  background-color: #ffffff;
+
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-radius: 10px;
 }
 #navLink3 {
   opacity: 0;
   animation: fadeIn ease 3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
-  background-color: #ffffff;
+
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-radius: 10px;
 }
 #navLink4 {
   opacity: 0;
   animation: fadeIn ease 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
-  background-color: #ffffff;
+
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-radius: 10px;
 }
 
 .sidePanel {
-  flex: 2 2;
+  /* flex: 2 2; */
+  background-color: #102542;
+  /* color: #cdd7d6; */
+  color: #ffffff;
+  width: 50%;
+
+  height: 1500px;
+  align-items: center;
 }
 
 .about {
@@ -147,12 +171,14 @@ nav {
   flex-direction: column;
   flex: 1 1;
   margin: 1em;
-  background-color: #102542;
-  color: #cdd7d6;
-  border-radius: 10px;
   padding: 1em;
   text-align: center;
-  font-size: 11pt;
+  font-size: 20pt;
+  /* color: #f87060; */
+  padding-top: 8em;
+  padding-bottom: 8em;
+  /* height: 100%; */
+  align-self: center;
 }
 
 /* CONTACT */
@@ -193,12 +219,23 @@ nav {
 .home {
   background-color: #cdd7d6;
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 .mainBody {
   display: flex;
   flex-direction: column;
-  flex: 5 5;
+  background-color: #ffffff;
+  width: 50%;
+  height: 1500px;
+  /* flex: 5 5; */
+  /* align-self: stretch; */
+  /* height: auto; */
 }
 
 .goals {
@@ -224,6 +261,7 @@ nav {
   border-style: solid;
   animation: fadeIn ease 3s;
   text-align: center;
+  color: #102542;
 }
 
 .portfolio {
@@ -250,6 +288,7 @@ nav {
   align-items: center;
   flex-direction: row;
   animation: fadeIn ease 3s;
+  color: #102542;
 }
 
 .projectDesc {
@@ -259,6 +298,7 @@ nav {
 
 .resume {
   background-color: #ffffff;
+  color: #102542;
   margin: 1em;
   padding: 1em;
   border-radius: 10px;
@@ -278,6 +318,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* flex: 2 2 */
 }
 
 .footer a:hover {

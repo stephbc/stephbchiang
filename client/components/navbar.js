@@ -29,6 +29,9 @@ export class Navbar extends React.Component {
           <div id="navLink3">
             <Link to="/home/resume">RESUME</Link>
           </div>
+          <div id="navLink4">
+            <Link to="/home/contact">CONTACT</Link>
+          </div>
           {/* <div id="navLink4">
             <Link to="/home/fun">JUST FOR FUN</Link>
           </div> */}

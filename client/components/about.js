@@ -5,16 +5,13 @@ export const About = () => {
   return (
     <div className="about">
       <p>
-        <b>Hello!</b>
+        <b>hello</b>
       </p>
       <p>
-        My name is <br />
-        <b>Stephanie Chiang</b>
-        <br />and I'm software developer.
+        my name is <b>Stephanie</b>
       </p>
-      <b>
-        <Contact />
-      </b>
+      <p>and i'm software developer</p>
+      <b>{/* <Contact /> */}</b>
       <br />
     </div>
   )
