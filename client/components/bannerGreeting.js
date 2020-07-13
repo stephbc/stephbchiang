@@ -8,7 +8,7 @@ export const BannerGreeting = () => {
         <Link to="/home">see what i'm working on</Link>
       </p>
       <p id="bannerG2">
-        <Link to="/contact">or just say hi</Link>
+        <Link to="/contact">or say hello</Link>
       </p>
     </div>
   )

@@ -33,7 +33,7 @@ export const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          or just say hi to my dog Lucy!
+          or meet my dog Lucy!
         </a>
       </p>
     </div>

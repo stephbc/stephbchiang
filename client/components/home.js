@@ -5,8 +5,8 @@ export const Home = () => {
   return (
     <div className="home">
       <div className="sidePanel">
-        <About />
         <Navbar />
+        <About />
       </div>
       <div className="mainBody">
         <Goals />
