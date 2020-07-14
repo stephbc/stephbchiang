@@ -1,27 +1,23 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Switch, Route} from 'react-router-dom'
+import {Contact} from './index'
 
 export class Navbar extends React.Component {
   constructor() {
     super()
-    this.state = {
-      clickedComponent: ''
-    }
+    // this.state = {
+    //   ifClicked: false
+    // }
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     return (
       <div className="navBar">
         <nav>
           <div id="navLink1">
             {/* <button type="button"></button> */}
-            <Link
-              to="/home/portfolio"
-              onClick={() => this.setState({clickedComponent: 'portfolio'})}
-            >
-              PORTFOLIO
-            </Link>
+            <Link to="/home/portfolio">PORTFOLIO</Link>
           </div>
           <div id="navLink2">
             <Link to="/home/coding">CODING</Link>
@@ -32,6 +28,9 @@ export class Navbar extends React.Component {
           <div id="navLink4">
             <Link to="/home/contact">CONTACT</Link>
           </div>
+          <Switch>
+            <Route path="/home/contact" component={Contact} />
+          </Switch>
           {/* <div id="navLink4">
             <Link to="/home/fun">JUST FOR FUN</Link>
           </div> */}

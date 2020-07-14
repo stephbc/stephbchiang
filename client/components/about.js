@@ -1,17 +1,13 @@
 import React from 'react'
-import {Contact} from './index'
 
 export const About = () => {
   return (
     <div className="about">
-      <p>
-        <b>hello</b>
+      <p id="aboutphoto">
+        <img src="/assets/photopng.png" width="150px" />
       </p>
-      <p>
-        my name is <b>Stephanie</b>
-      </p>
-      <p>and i'm software developer</p>
-      <b>{/* <Contact /> */}</b>
+      <p id="about1">hi, i'm stephanie</p>
+      <p id="about2">and i'm software developer</p>
       <br />
     </div>
   )

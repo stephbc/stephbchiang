@@ -3,12 +3,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-body {
   font-family: Helvetica;
   color: #102542;
-  /* background-color: #cdd7d6; */
   font-size: 11pt;
 }
 
@@ -37,6 +33,7 @@ img {
 #app {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 /* BANNER */
@@ -45,14 +42,10 @@ img {
   background-color: #f87060;
   display: flex;
   flex-direction: column;
-  /* padding-top: 6em;
-  padding-bottom: 12em; */
   height: 100vh;
-  /* align-items: center; */
   justify-content: center;
-  font-size: 24pt;
+  font-size: 20pt;
   font-weight: bold;
-  /* flex: 8 8 */
 }
 
 .banner a {
@@ -67,7 +60,6 @@ img {
   flex: 1;
   flex-direction: column;
   padding-top: 6em;
-  /* height: 50%; */
   justify-content: flex-end;
   text-align: center;
   text-shadow: 2px 2px #cdd7d6;
@@ -79,13 +71,12 @@ img {
 }
 
 .bannerGreeting {
-  /* height: 50%; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  font-size: 11pt;
   text-align: center;
+  padding-bottom: 6em;
+  font-size: 11pt;
 }
 
 #bannerG1 {
@@ -110,16 +101,19 @@ nav {
 }
 
 .navBar {
-  text-align: center;
+  /* text-align: center; */
+  justify-content: center;
   margin: 1em;
-  font-size: 20pt;
-  /* height: 100%; */
+  font-size: 16pt;
+  font-weight: bolder;
+  height: 100vh;
 }
 
 #navLink1 {
+  opacity: 0;
   animation: fadeIn ease 3s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
-
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -127,9 +121,8 @@ nav {
 #navLink2 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 1s;
+  animation-delay: 3.5s;
   animation-fill-mode: forwards;
-
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -137,9 +130,8 @@ nav {
 #navLink3 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 2s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
-
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -147,38 +139,45 @@ nav {
 #navLink4 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 3s;
+  animation-delay: 4.5s;
   animation-fill-mode: forwards;
-
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .sidePanel {
-  /* flex: 2 2; */
   background-color: #102542;
-  /* color: #cdd7d6; */
   color: #ffffff;
   width: 50%;
-
-  height: 1500px;
-  align-items: center;
+  height: 100vh;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  flex: 1 1;
-  margin: 1em;
-  padding: 1em;
-  text-align: center;
-  font-size: 20pt;
-  /* color: #f87060; */
+  justify-content: center;
+  align-items: center;
+  font-size: 16pt;
+  font-weight: bolder;
   padding-top: 8em;
-  padding-bottom: 8em;
-  /* height: 100%; */
-  align-self: center;
+}
+
+#aboutphoto {
+  animation: fadeIn ease 3s;
+  animation-fill-mode: forwards;
+}
+#about1 {
+  opacity: 0;
+  animation: fadeIn ease 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#about2 {
+  opacity: 0;
+  animation: fadeIn ease 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 /* CONTACT */
@@ -187,26 +186,25 @@ nav {
   justify-content: center;
   margin-bottom: 3px;
   margin-top: 3px;
+  font-size: 11pt;
+  text-align: center;
 }
 
 #contact1 {
   animation: fadeIn ease 3s;
 }
-
 #contact2 {
   opacity: 0;
   animation: fadeIn ease 3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-
 #contact3 {
   opacity: 0;
   animation: fadeIn ease 3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }
-
 #contact4 {
   opacity: 0;
   animation: fadeIn ease 3s;
@@ -217,14 +215,10 @@ nav {
 /* HOME/MAIN */
 
 .home {
-  background-color: #cdd7d6;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  margin: 0;
-  align-items: stretch;
-  align-content: stretch;
 }
 
 .mainBody {
@@ -232,20 +226,7 @@ nav {
   flex-direction: column;
   background-color: #ffffff;
   width: 50%;
-  height: 1500px;
-  /* flex: 5 5; */
-  /* align-self: stretch; */
-  /* height: auto; */
-}
-
-.goals {
-  /* background-color: #102542; */
-  background-color: #ffffff;
-  margin: 1em;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  flex: 4 4;
+  height: 100%;
 }
 
 .coding {
@@ -255,10 +236,7 @@ nav {
   background-color: #ffffff;
   border-radius: 10px;
   font-size: 11pt;
-  flex: 1 1;
   padding: 3em;
-  border-color: #102542;
-  border-style: solid;
   animation: fadeIn ease 3s;
   text-align: center;
   color: #102542;
@@ -267,10 +245,8 @@ nav {
 .portfolio {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   margin: 1em;
   text-align: center;
-  /* color: #f87060; */
 }
 
 .project {
@@ -303,6 +279,7 @@ nav {
   padding: 1em;
   border-radius: 10px;
   animation: fadeIn ease 3s;
+  font-size: 10pt;
 }
 
 .fun {
@@ -318,7 +295,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* flex: 2 2 */
 }
 
 .footer a:hover {
