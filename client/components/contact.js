@@ -24,7 +24,7 @@ export const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          check out my work on github
+          see my projects on github
         </a>
       </p>
       <p id="contact4">

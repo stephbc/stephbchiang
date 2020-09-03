@@ -10,8 +10,16 @@ export const Totem = () => {
           </p>
           <p>For festivals, raves and all your nights out!</p>
           <p>
-            Make a quick totem if your friends can't find you. Type a sign, take
-            a temporary pic, or use photo you already have.
+            <li>
+              Turn your phone into a totem so your friends can find you in a
+              crowd.
+            </li>
+            {/* <br /> */}
+            <li>Type a sign and make it blink, or use or take a photo.</li>
+            {/* <br /> */}
+            <li>
+              Send your GPS coordinates via SMS to contacts on your phone.
+            </li>
           </p>
           <a
             href="https://github.com/stephbc/TOTEM"

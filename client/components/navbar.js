@@ -19,7 +19,7 @@ export class Navbar extends React.Component {
               <Link to="/home/portfolio">PORTFOLIO</Link>
             </div>
             <div id="navLink2">
-              <Link to="/home/coding">CODING</Link>
+              <Link to="/home/coding">ABOUT</Link>
             </div>
             <div id="navLink3">
               <Link to="/home/resume">RESUME</Link>
@@ -39,7 +39,7 @@ export class Navbar extends React.Component {
               <Link to="/home/portfolio">PORTFOLIO</Link>
             </div>
             <div id="navLink2">
-              <Link to="/home/coding">CODING</Link>
+              <Link to="/home/coding">ABOUT</Link>
             </div>
             <div id="navLink3">
               <Link to="/home/resume">RESUME</Link>
