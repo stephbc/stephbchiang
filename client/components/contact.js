@@ -4,7 +4,6 @@ export const Contact = () => {
   return (
     <div className="contact">
       <p id="contact1">
-        reach me at <br />
         <a href="mailto:stephaniebchiang@gmail.com">
           stephaniebchiang@gmail.com
         </a>
