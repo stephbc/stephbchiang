@@ -27,20 +27,20 @@ export const Navbar = () => {
         </div>
         <div id="navLink2">
           <Link
-            to="/home/portfolio"
-            onClick={() => handleNavClick('portfolio')}
-            className={currentLink === 'portfolio' ? 'active-nav-link' : ''}
-          >
-            PORTFOLIO
-          </Link>
-        </div>
-        <div id="navLink3">
-          <Link
             to="/home/resume"
             onClick={() => handleNavClick('resume')}
             className={currentLink === 'resume' ? 'active-nav-link' : ''}
           >
             RESUME
+          </Link>
+        </div>
+        <div id="navLink3">
+          <Link
+            to="/home/portfolio"
+            onClick={() => handleNavClick('portfolio')}
+            className={currentLink === 'portfolio' ? 'active-nav-link' : ''}
+          >
+            PORTFOLIO
           </Link>
         </div>
         <div id="navLink4">

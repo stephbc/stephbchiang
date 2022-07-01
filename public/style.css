@@ -66,7 +66,6 @@ img {
   margin-bottom: 10px;
   animation: fadeIn ease 3s;
 }
-
 #bannerG2 {
   cursor: pointer;
   margin-bottom: 10px;
@@ -101,7 +100,7 @@ nav {
 #navLink1 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
   padding: 1em;
   margin-top: 1em;
@@ -110,7 +109,7 @@ nav {
 #navLink2 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   padding: 1em;
   margin-top: 1em;
@@ -119,7 +118,7 @@ nav {
 #navLink3 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 1.5s;
+  animation-delay: 2.5s;
   animation-fill-mode: forwards;
   padding: 1em;
   margin-top: 1em;
@@ -128,7 +127,7 @@ nav {
 #navLink4 {
   opacity: 0;
   animation: fadeIn ease 3s;
-  animation-delay: 2s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
   padding: 1em;
   margin-top: 1em;
@@ -145,29 +144,25 @@ nav {
   height: 100%;
 }
 
-/* .about {
+.about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 15pt;
+  font-size: 25pt;
   font-weight: lighter;
-} */
-
-#aboutphoto {
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
+  padding: 1em;
+  margin-top: 1em;
 }
+
 #about1 {
   opacity: 0;
   animation: fadeIn ease 2s;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
 #about2 {
   opacity: 0;
   animation: fadeIn ease 2s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -225,15 +220,28 @@ nav {
   margin: 1em;
   background-color: #ffffff;
   border-radius: 5px;
-  font-size: 11pt;
+  font-size: 12pt;
   padding: 1.5em;
-  animation: fadeIn ease 3s;
   text-align: left;
+  font-weight: lighter;
+  color: #102542;
+  animation: fadeIn ease 3s;
+}
+
+.coding a {
+  color: #f87060;
+}
+
+.coding a:hover {
   color: #102542;
 }
 
+.coding-header {
+  font-size: 14pt;
+}
+
 .coding-block {
-  height: 90%;
+  height: 100%;
   overflow-x: scroll;
   overflow-y: scroll;
 }
@@ -280,10 +288,28 @@ nav {
   padding: 1em;
   border-radius: 5px;
   animation: fadeIn ease 3s;
-  font-size: 11pt;
+  font-size: 12pt;
+  font-weight: lighter;
   height: 90%;
   overflow-x: scroll;
   overflow-y: scroll;
+}
+
+.resume a {
+  color: #f87060;
+}
+
+.resume a:hover {
+  color: #102542;
+}
+
+.resume .section-header {
+  margin: 1em 0.5em 0.5em 0.5em;
+  font-size: 14pt;
+}
+
+.resume .section-body {
+  margin: 1em;
 }
 
 .fun {
