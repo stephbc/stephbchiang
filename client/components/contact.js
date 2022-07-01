@@ -1,12 +1,22 @@
 import React from 'react'
+import fontawesome from '@fortawesome/fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {
+  faEnvelope,
+  faLink,
+  faDiagramProject,
+  faDog
+} from '@fortawesome/free-solid-svg-icons'
+
+fontawesome.library.add(faEnvelope, faLink, faDiagramProject, faDog)
 
 export const Contact = () => {
   return (
     <div className="contact">
       <p id="contact1">
-        reach me at <br />
         <a href="mailto:stephaniebchiang@gmail.com">
-          stephaniebchiang@gmail.com
+          <span>stephaniebchiang@gmail.com </span>
+          <FontAwesomeIcon icon="envelope" />
         </a>
       </p>
       <p id="contact2">
@@ -15,7 +25,8 @@ export const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          connect on linkedin
+          <span>connect on linkedin </span>
+          <FontAwesomeIcon icon="link" />
         </a>
       </p>
       <p id="contact3">
@@ -24,7 +35,15 @@ export const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          see my projects on github
+          <span>github for fun / </span>
+        </a>
+        <a
+          href="https://github.com/schiang-TE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>github for work </span>
+          <FontAwesomeIcon icon="diagram-project" />
         </a>
       </p>
       <p id="contact4">
@@ -33,7 +52,8 @@ export const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          or meet my dog Lucy!
+          <span>meet my dog Lucy </span>
+          <FontAwesomeIcon icon="dog" />
         </a>
       </p>
     </div>

@@ -7,10 +7,10 @@ export const Home = () => {
     <div className="home">
       <div className="sidePanel">
         <Switch>
-          <Route path="/home/portfolio" component={Portfolio} />
           <Route path="/home/coding" component={Coding} />
+          <Route path="/home/portfolio" component={Portfolio} />
           <Route path="/home/resume" component={Resume} />
-          <Route path="/home/fun" component={Fun} />
+          {/* <Route path="/home/fun" component={Fun} /> */}
           <Route exact path="/home" component={About} />
           <Route component={About} />
         </Switch>

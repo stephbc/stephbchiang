@@ -4,57 +4,51 @@ export const Coding = () => {
   return (
     <div className="coding-block">
       <div className="coding">
-        <h3>LEARNING TO CODE</h3>
+        <div className="coding-header">HELLO AND WELCOME</div>
+        <p>My name is Stephanie and I'm from Queens, NYC.</p>
         <p>
-          In early 2019, I started looking for new challenges to spark
-          creativity and growth. It was as much for personal development as it
-          was for reinvigorating my career path. I became curious about learning
-          to code and was surprised to see how much I enjoyed the struggles and
-          the process.
+          And I like to keep busy! I enjoy traveling, crocheting and knitting,
+          cycling, reading fantasy novels, fashion, music festivals, hiking, and
+          checking out museums and art exhibits. Plus, I'm always on the hunt
+          for interesting new restaurants and bubble tea shops.
         </p>
         <p>
-          Later that year, I was accepted into the
+          I also love movies, and even majored in Film and Media Studies back in
+          the day!
+        </p>
+      </div>
+      <div className="coding">
+        <div className="coding-header">LEARNING TO CODE</div>
+        <p>
+          In early 2019, I realized that I had gone as far as I could on my
+          previous career path and began searching for new challenges to spark
+          creativity and growth. I was hunting for ways to develop, both
+          personally and professionally, and grew curious about the technology
+          industry and learning to code. I was surprised to find how much I
+          enjoyed tinkering, building and creating through code.
+        </p>
+        <p>
+          By the end of that year, I'd been accepted into the
           <a
             href="https://www.gracehopper.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <b> Grace Hopper Program at FullStack Academy</b>
-          </a>, a coding bootcamp for the training of women and non-binary
-          software engineers. I completed the program in April of 2020.
+          </a>, a coding bootcamp for women and non-binary software engineers. I
+          completed the program in April of 2020, and have been learning,
+          growing and developing ever since!
         </p>
       </div>
       <div className="coding">
+        <div className="coding-header">TECH STACK</div>
         <p>
-          <a
-            href="https://medium.com/journey-to-becoming-an-algoat/sort-scores-part-1-7e80e1878721"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>SORT SCORES: PART 1 </b>
-          </a>
+          <div>Javascript, HTML, CSS</div>
+          <div>Sequelize, SQL, PostgreSQL, MongoDB</div>
+          <div>Node.js, Express, Socket.IO</div>
+          <div>React, Redux, React Native, Expo</div>
+          <div>Knockout, Java, Python</div>
         </p>
-        <p>
-          In this article, my partner and I solve a sorting algorithm using a
-          hash table. <br />Written for{' '}
-          <a
-            href="https://medium.com/journey-to-becoming-an-algoat"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Journey to Becoming an Algoat
-          </a>, a publication run by Grace Hopper alums on Medium.
-        </p>
-      </div>
-      <div className="coding">
-        <p>
-          <b>TECH STACK:</b>
-        </p>
-        <li>Javascript, HTML, CSS</li>
-        <li>Sequelize, SQL, PostgreSQL, MongoDB</li>
-        <li>Node.js, Express, Socket.IO</li>
-        <li>React, Redux</li>
-        <li>React Native, Expo, Phaser 3</li>
       </div>
     </div>
   )

@@ -5,6 +5,7 @@ export const Qparty = () => {
     <div className="project">
       <div className="projectTile">
         <div className="projectDesc">
+          <img src="/assets/Qparty.png" height="100px" />
           <p>
             <b>SUPER QUARANTINE PARTY</b> is a Mario-Party style multiplayer
             game, created with Phaser 3 and Socket.IO. As one of four developers

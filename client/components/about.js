@@ -3,12 +3,8 @@ import React from 'react'
 export const About = () => {
   return (
     <div className="about">
-      <p id="aboutphoto">
-        <img src="/assets/photopng.png" width="150px" />
-      </p>
-      <p id="about1">hello and welcome! i'm stephanie</p>
-      <p id="about2"> and i'm software developer</p>
-      <br />
+      <p id="about1">MY NAME IS STEPHANIE CHIANG</p>
+      <p id="about2">AND I'M A PROGRAMMER</p>
     </div>
   )
 }
