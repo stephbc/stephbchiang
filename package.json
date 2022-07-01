@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "stephbchiang",
   "engines": {
-    "node": ">= 7.0.0"
+    "node": "= 16.x"
   },
   "main": "index.js",
   "scripts": {
