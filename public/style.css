@@ -17,10 +17,6 @@ a:hover {
   color: #f87060;
 }
 
-img {
-  border-radius: 10px;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -214,6 +210,8 @@ nav {
   height: 100%;
 }
 
+/* CODING */
+
 .coding {
   display: flex;
   flex-direction: column;
@@ -225,7 +223,6 @@ nav {
   text-align: left;
   font-weight: lighter;
   color: #102542;
-  animation: fadeIn ease 3s;
 }
 
 .coding a {
@@ -246,6 +243,8 @@ nav {
   overflow-y: scroll;
 }
 
+/* PORTFOLIO */
+
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -254,6 +253,16 @@ nav {
   height: 90%;
   overflow-x: scroll;
   overflow-y: scroll;
+  font-weight: lighter;
+}
+
+.portfolio a {
+  color: #f87060;
+  font-size: 15pt;
+}
+
+.portfolio a:hover {
+  color: #102542;
 }
 
 .project {
@@ -264,21 +273,22 @@ nav {
   background-color: #ffffff;
   padding: 1em;
   border-radius: 5px;
-  animation: fadeIn ease 3s;
 }
 
 .projectTile {
   display: flex;
   /* align-items: center; */
   flex-direction: row;
-  animation: fadeIn ease 3s;
   color: #102542;
 }
 
 .projectDesc {
   padding: 1em;
   text-align: left;
-  animation: fadeIn ease 3s;
+}
+
+.projectDesc a {
+  font-size: 12pt;
 }
 
 .resume {
@@ -287,7 +297,6 @@ nav {
   margin: 1em;
   padding: 1em;
   border-radius: 5px;
-  animation: fadeIn ease 3s;
   font-size: 12pt;
   font-weight: lighter;
   height: 90%;

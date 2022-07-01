@@ -6,15 +6,9 @@ export const Portfolio = () => {
   return (
     <div className="portfolio">
       <nav className="projectTile">
-        <Link to="/home/portfolio/qparty">
-          <img src="/assets/Qparty.png" height="100px" />
-        </Link>
-        <Link to="/home/portfolio/totem">
-          <img src="/assets/totem.png" height="100px" />
-        </Link>
-        <Link to="/home/portfolio/bottledup">
-          <img src="/assets/bottledup2.png" height="100px" />
-        </Link>
+        <Link to="/home/portfolio/totem">TOTEM</Link>
+        <Link to="/home/portfolio/qparty">Q PARTY</Link>
+        <Link to="/home/portfolio/bottledup">BOTTLED UP</Link>
       </nav>
       <br />
       <Switch>
